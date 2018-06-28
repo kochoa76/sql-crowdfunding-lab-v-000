@@ -14,9 +14,9 @@ projects.id GROUP BY(projects.title);"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
-"SELECT user.name, user.age, pledges.amount FROM USER 
-INNER JOIN pledges 
-ON pledges.user_id = 
+"SELECT user.name, user.age, pledges.amount FROM USER
+INNER JOIN pledges
+ON pledges.user_id =
 user.id GROUP BY(user.name)"
 end
 
